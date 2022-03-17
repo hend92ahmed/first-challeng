@@ -1,0 +1,367 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    /* margin: 3%; */
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    background-color: #040320fc;
+    /* display: flex; */
+}
+
+.parent .card{
+    background-color: #1f1d3e;
+    height: 584px;
+    width: 1081px;
+    display: flex;
+    margin-left: 32px;
+    justify-content: center;
+    position: absolute;
+    right: 92px;
+    left: 19px;
+    border-radius: 13px;
+    background-image: url(./image-header-desktop.jpg);
+    background-size:contain;
+    background-position-x: 608px;
+    background-repeat: no-repeat;
+    backdrop-filter:initial;
+    top: 13px;
+}
+.one{
+    background-color: #5f07997e;
+    position: absolute;
+    top: 0px;
+    left: 608px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    height: 584px;
+    max-height: fit-content;
+    width: 473px;
+}
+.parent .card h1{
+    color: white;
+    position: absolute;
+    top: 57px;
+    left: 64px;
+    padding: auto;
+}
+span{
+    color:#A85FD9;
+}
+p{
+    color: #9998A6;
+    position: absolute;
+    top: 181px;
+    left: 60px;
+    right: 30px;
+}
+.nom-1{
+    display: flex;
+    position: absolute;
+    top: 390px;
+}
+.nom-2{
+    display: flex;
+    position: absolute;
+    top: 390px;
+    left: 203px;
+}
+.master{
+    position: absolute;
+    top: 481px;
+    left: 24px;
+}
+.h-2{
+    position: absolute;
+    top: -36px;
+    color: #9998A6;
+    left: 22px;
+}
+.ten-k{
+    font-size: 1.5em;
+    color:white;
+    position: absolute;
+    left: 24px;
+    bottom: 45px;
+    font-weight: bold;
+}
+.four-k{
+    position: absolute;
+    left: 211px;
+    bottom: 47px;
+    font-size: 1.5em;
+    color:white;
+    font-weight: bold;
+}
+.h-3{
+    position: absolute;
+    top: -36px;
+    color: #9998A6;
+    left: 209px;
+}
+.five-k{
+    position: absolute;
+    left: 390px;
+    bottom: 48px;
+    font-size: 1.5em;
+    color:white;
+    font-weight: bold;
+}
+.h-4{
+    position: absolute;
+    top: -36px;
+    color: #9998A6;
+    left: 390px;
+}
+.challeng-by{
+    color:blue;
+    position: absolute;
+    left: 1145px;
+    font-size: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    top: 214px;
+}
+.challeng-front{
+    color:#9998A6;
+    position: absolute;
+    left: 1145px;
+    font-size: 10px;
+    top: 263px;
+    text-transform: capitalize;
+}
+.challeng-fron-0{
+    color:#9998A6;
+    position: absolute;
+    left: 1144px;
+    font-size: 10px;
+    top: 178px;
+    text-transform: capitalize;
+}
+.hend{
+    color:blue;
+    position: absolute;
+    left: 1145px;
+    font-size: 10px;
+    text-decoration: none;
+    top: 300px;
+    text-transform: capitalize;
+}
+
+
+.challeng{
+    display:block;
+}
+
+
+
+@media (max-width:1024px){
+
+.parent .card{
+    margin: 0;
+    height: 1296px;
+    width: 843px;
+    background-image: url(./image-header-mobile.jpg);
+    background-position-x: 0px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 13px;
+    display: flex;
+}
+.one{
+    background-position-x: -6px;
+    background-repeat: no-repeat;
+    width: 843px;
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    border-radius: 13px;
+    background-size: contain;
+    overflow: hidden;
+    /* border-top-right-radius: 13px; */
+    height: 621px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.parent .card h1{
+    margin-top: 603px;
+    /* margin-right: 93px; */
+    position: absolute;
+    left: 193px;
+    font-size: 2em;
+}
+p{
+    margin-top: 588px;
+    position: absolute;
+    left: 193px;
+    font-size: 1.5em;
+}
+.master{
+    position: absolute;
+    bottom: 95px;
+    left: 178px;
+}
+.ten-k{
+    position: absolute;
+    bottom: 158px;
+    left: 206px;
+    
+}
+.h-2{position: absolute;top: -38px;left: 205px;}
+
+.h-3{position:absolute;top: 72px;}
+
+
+.five-k{
+    position:absolute;
+    bottom: -57px;
+    left: 211px;
+}
+.h-4{
+    position:absolute;
+    top: 177px;
+    left: 209px;
+}
+
+}
+
+
+
+@media (max-width:641px){
+
+    .parent .card{
+        margin-bottom: 0px;
+        height: 1312px;
+        width: 559px;
+        background-image: url(./image-header-mobile.jpg);
+        background-position-x: 0px;
+        border-top-right-radius: 13px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 13px;
+        display: flex;
+        position: absolute;
+        top: -5px;
+        left: 292px;
+    }
+    .one{
+        background-position-x: -6px;
+        background-repeat: no-repeat;
+        width: 560px;
+        position: absolute;
+        top: -2px;
+        left: 0px;
+        border-radius: 13px;
+        background-size: contain;
+        overflow: hidden;
+        /* border-top-right-radius: 13px; */
+        height: 413px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    
+    .parent .card h1{
+        margin-top: 428px;
+        /* margin-right: 93px; */
+        position: absolute;
+        left: 49px;
+        font-size: 1.4em;
+        /* top: 50px; */
+    }
+    p{
+        margin-top: 751px;
+        position: absolute;
+        left: 57px;
+        font-size: 1em;
+        top: -167px;
+    }
+    .master{
+        position: absolute;
+        bottom: 261px;
+        left: -37px;
+    }
+    .ten-k{
+        position: absolute;
+        bottom: 158px;
+        left: 206px;
+        
+    }
+    .h-2{position: absolute;top: -345px;left: 205px;}
+    
+    .h-3{position:absolute;top: -237px;}
+    
+    
+    .five-k{
+        position:absolute;
+        bottom: -57px;
+        left: 211px;
+    }
+    .h-4{
+        position:absolute;
+        top: -121px;
+        left: 209px;
+    }
+
+
+}
+@media (max-width:300px){
+
+    .parent .card{
+        height: 1312px;
+        width: 299px;
+        background-image: url(./image-header-mobile.jpg);
+        background-position-x: 0px;
+        border-top-right-radius: 13px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 13px;
+        display: flex;
+        position: absolute;
+        top: -3px;
+        left: 72px;
+    }
+    .parent .card h1{
+        margin-top: 248px;
+        margin-right: 93px;
+        position: absolute;
+        left: 49px;
+        font-size: 1.5em;
+        /* top: 50px; */
+    }
+    p{
+        margin-top: 609px;
+        position: absolute;
+        left: 47px;
+        font-size: 0.9em;
+        top: -109px;
+    }
+    .card{
+        width:fit-content
+    }
+    .one{
+        background-position-x: -6px;
+        background-repeat: no-repeat;
+        width: 300px;
+        position: absolute;
+        top: -2px;
+        left: 0px;
+        border-radius: 13px;
+        background-size: contain;
+        overflow: hidden;
+        height: 222px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .master{
+        position:absolute;
+        left: -82px;
+    }
+
+}
+
